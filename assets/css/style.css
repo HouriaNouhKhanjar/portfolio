@@ -25,6 +25,11 @@ h2 {
     border-radius: 0;
 }
 
+.button-hover:hover {
+    background-color: #1d6d8a;
+    color: #1d6d8a;
+}
+
 #hero {
     background: url('../images/background.webp') #dbdcde 50% 70% / cover;
     min-height: 500px;
