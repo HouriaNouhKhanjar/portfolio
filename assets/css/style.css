@@ -14,7 +14,7 @@ body {
     background-color: #a4c2d1;
 }
 
-h1, 
+h1,
 h2 {
     font-family: "DM Serif Display", sans-serif;
     color: #184f63;
@@ -27,7 +27,7 @@ h2 {
 
 .button-hover:hover {
     background-color: #1d6d8a;
-    color: #1d6d8a;
+    border-color: #1d6d8a;
 }
 
 #hero {
@@ -44,12 +44,12 @@ h2 {
     background-color: #dbdcde;
 }
 
-#portfolio .card-title{
+#portfolio .card-title {
     color: #1f7798;
     font-size: 1.2rem;
 }
 
-#portfolio .card .btn-outline-secondary:hover{
+#portfolio .card .btn-outline-secondary:hover {
     background-color: #1f7798;
 }
 
@@ -63,6 +63,7 @@ h2 {
 
 /* add media query for xl screen or larger */
 @media screen and (min-width:1200px) {
+
     /* portfolio section */
     #portfolio .card-text {
         min-height: auto;
