@@ -11,5 +11,29 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #1f7798;;
+    background-color: #a4c2d1;
+}
+
+h1, 
+h2 {
+    font-family: "DM Serif Display", sans-serif;
+    color: #184f63;
+}
+
+#hero {
+    background: url('../images/background.webp') #dbdcde 50% 70% / cover;
+    min-height: 500px;
+    padding: 5% 7%;
+}
+
+#about {
+    background-color: #fff;
+}
+
+#portfolio {
+    background-color: #dbdcde;
+}
+
+#contact {
+    background-color: #fff;
 }
